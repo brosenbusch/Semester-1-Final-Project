@@ -1,7 +1,7 @@
 class Cart{
   constructor (l,q){
-    this.itemList = l;
-    this.itemQuantity = q;
+    this.itemList = l; //array
+    this.itemQuantity = q; //array
   }
 
   addItem(i,q){
